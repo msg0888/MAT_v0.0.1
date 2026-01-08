@@ -1,0 +1,21 @@
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.venv/
+
+mat-web/data/projects/
+mat-web/apps/api/.venv/
+
+_xlsm_extracted/
+vba_extract/
+vba_source/
+
+*.r3d
+*.r3d.prv
+*.r3d.lock
+*.xlsm
+*.zip
+
+0a. Code_16824962_Verizon_2026-01-08_15-10-48.pdf
+16824962_ALL WILLIAMS RELO_Verizon_TIA_MA_2026-01-08_15-05-58.txt
+16824962_ALL WILLIAMS RELO_Verizon_TIA_MA_2026-01-08_15-05-58.__s
