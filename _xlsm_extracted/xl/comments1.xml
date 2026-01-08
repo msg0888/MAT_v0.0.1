@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<comments xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="xr" xmlns:xr="http://schemas.microsoft.com/office/spreadsheetml/2014/revision"><authors><author>Mark S. Girgis</author></authors><commentList><comment ref="B2" authorId="0" shapeId="0" xr:uid="{D3AFC8AF-1BB7-4D8B-A94C-893BE0D75040}"><text><r><rPr><sz val="9"/><color indexed="81"/><rFont val="Tahoma"/><family val="2"/></rPr><t>Use the drop down to update the company between NB+C and TKK.</t></r></text></comment><comment ref="A9" authorId="0" shapeId="0" xr:uid="{306269EB-CC8D-4320-8E00-2320BA1706F1}"><text><r><rPr><b/><sz val="9"/><color indexed="81"/><rFont val="Tahoma"/><family val="2"/></rPr><t>Buttons (from Left to Right)</t></r><r><rPr><sz val="9"/><color indexed="81"/><rFont val="Tahoma"/><family val="2"/></rPr><t xml:space="preserve">
+PDF:
+Prints Code Tab and Placement Diagrams to PDF
+
+Support Ticket Email:
+Click this button to submit an email request for any issues encountered using this tool.</t></r></text></comment></commentList></comments>

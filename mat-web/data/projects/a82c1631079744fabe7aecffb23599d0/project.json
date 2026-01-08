@@ -1,0 +1,338 @@
+{
+  "id": "a82c1631079744fabe7aecffb23599d0",
+  "name": "outputs-test",
+  "created_at": "2026-01-08T18:42:31.409722+00:00",
+  "updated_at": "2026-01-08T18:42:31.469777+00:00",
+  "code": {},
+  "geometry": {},
+  "files": {},
+  "cfd_db": [
+    {
+      "manufacturer": "MFG",
+      "model": "MODEL",
+      "deg_0": "1",
+      "deg_30": "2",
+      "deg_60": "3",
+      "deg_90": "4",
+      "deg_120": "5",
+      "deg_150": "6",
+      "deg_180": "7",
+      "deg_210": "8",
+      "deg_240": "9",
+      "deg_270": "10",
+      "deg_300": "11",
+      "deg_330": "12"
+    }
+  ],
+  "cci_db": [
+    {
+      "manufacturer": "MFG",
+      "model": "MODEL",
+      "front": "10",
+      "side": "20",
+      "front_ice_0_5": "11",
+      "front_ice_1_0": "12",
+      "front_ice_2_0": "13",
+      "side_ice_0_5": "21",
+      "side_ice_1_0": "22",
+      "side_ice_2_0": "23"
+    }
+  ],
+  "discrete_loads": {
+    "qty_sectors": 1,
+    "mount_azimuths": {
+      "alpha": 0
+    },
+    "rows": [
+      {
+        "A": "MFG",
+        "B": "MODEL",
+        "C": "Existing",
+        "D": "Antenna",
+        "E": "CFD",
+        "F": 1,
+        "L": 0,
+        "M": 1,
+        "H": 100,
+        "AR": 10,
+        "AS": 5,
+        "AT": 2,
+        "AU": 100
+      },
+      {
+        "A": "MFG",
+        "B": "MODEL",
+        "C": "Existing",
+        "D": "Antenna",
+        "E": "CCI",
+        "F": 1,
+        "L": 45,
+        "M": 1,
+        "H": 120,
+        "AR": 10,
+        "AS": 5,
+        "AT": 2,
+        "AU": 200
+      }
+    ],
+    "normalized": [
+      {
+        "A": "MFG",
+        "B": "MODEL",
+        "C": "Existing",
+        "D": "Antenna",
+        "E": "CFD",
+        "F": 1,
+        "L": 0,
+        "M": 1,
+        "H": 100,
+        "AR": 10,
+        "AS": 5,
+        "AT": 2,
+        "AU": 100,
+        "normalized": {
+          "alpha": {
+            "app_azimuth": 0.0,
+            "mount_azimuth": 0.0,
+            "normalized_azimuth": 0.0,
+            "lookup_azimuth": 0.0
+          }
+        },
+        "cfd": {
+          "alpha": 1.0
+        }
+      },
+      {
+        "A": "MFG",
+        "B": "MODEL",
+        "C": "Existing",
+        "D": "Antenna",
+        "E": "CCI",
+        "F": 1,
+        "L": 45,
+        "M": 1,
+        "H": 120,
+        "AR": 10,
+        "AS": 5,
+        "AT": 2,
+        "AU": 200,
+        "normalized": {
+          "alpha": {
+            "app_azimuth": 45.0,
+            "mount_azimuth": 0.0,
+            "normalized_azimuth": 45.0,
+            "lookup_azimuth": 45.0
+          }
+        },
+        "cci": {
+          "alpha": 17.000000000000004
+        }
+      }
+    ],
+    "validation": {
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "MODEL: missing required input G",
+        "MODEL: missing required input I",
+        "MODEL: missing required input J",
+        "MODEL: missing required input K",
+        "MODEL: missing required input G",
+        "MODEL: missing required input I",
+        "MODEL: missing required input J",
+        "MODEL: missing required input K"
+      ]
+    },
+    "ice_thickness": 1.0,
+    "outputs": {
+      "row_outputs": [
+        {
+          "model": "MODEL",
+          "shape": "CFD",
+          "weight": 100.0,
+          "wind_caaa": {
+            "0": 1.0,
+            "30": 2.0,
+            "60": 3.0,
+            "90": 4.0,
+            "120": 5.0,
+            "150": 6.0,
+            "180": 7.0,
+            "210": 8.0,
+            "240": 9.0,
+            "270": 10.0,
+            "300": 11.0,
+            "330": 12.0
+          },
+          "ice_caaa": {
+            "0": null,
+            "30": null,
+            "60": null,
+            "90": null,
+            "120": null,
+            "150": null,
+            "180": null,
+            "210": null,
+            "240": null,
+            "270": null,
+            "300": null,
+            "330": null
+          },
+          "wind_pressure": null,
+          "ice_pressure": null
+        },
+        {
+          "model": "MODEL",
+          "shape": "CCI",
+          "weight": 200.0,
+          "wind_caaa": {
+            "0": 10.0,
+            "30": 12.5,
+            "60": 17.5,
+            "90": 20.0,
+            "120": 17.5,
+            "150": 12.5,
+            "180": 10.0,
+            "210": 12.5,
+            "240": 17.499999999999996,
+            "270": 20.0,
+            "300": 17.5,
+            "330": 12.500000000000004
+          },
+          "ice_caaa": {
+            "0": 12.0,
+            "30": 14.5,
+            "60": 19.499999999999996,
+            "90": 22.0,
+            "120": 19.5,
+            "150": 14.5,
+            "180": 12.0,
+            "210": 14.5,
+            "240": 19.5,
+            "270": 22.0,
+            "300": 19.499999999999996,
+            "330": 14.500000000000004
+          },
+          "wind_pressure": null,
+          "ice_pressure": null
+        }
+      ],
+      "code_tables": {
+        "wind": [
+          {
+            "model": "MODEL",
+            "caaa": {
+              "0": 1.0,
+              "30": 2.0,
+              "60": 3.0,
+              "90": 4.0,
+              "120": 5.0,
+              "150": 6.0,
+              "180": 7.0,
+              "210": 8.0,
+              "240": 9.0,
+              "270": 10.0,
+              "300": 11.0,
+              "330": 12.0
+            },
+            "area_source": "Manufacturer",
+            "wind_pressure": null,
+            "weight": 100.0
+          },
+          {
+            "model": "MODEL",
+            "caaa": {
+              "0": 10.0,
+              "30": 12.5,
+              "60": 17.5,
+              "90": 20.0,
+              "120": 17.5,
+              "150": 12.5,
+              "180": 10.0,
+              "210": 12.5,
+              "240": 17.499999999999996,
+              "270": 20.0,
+              "300": 17.5,
+              "330": 12.500000000000004
+            },
+            "area_source": "CCI",
+            "wind_pressure": null,
+            "weight": 200.0
+          }
+        ],
+        "ice": [
+          {
+            "model": "MODEL",
+            "ice_caaa": {
+              "0": null,
+              "30": null,
+              "60": null,
+              "90": null,
+              "120": null,
+              "150": null,
+              "180": null,
+              "210": null,
+              "240": null,
+              "270": null,
+              "300": null,
+              "330": null
+            },
+            "area_source": "TIA",
+            "ice_pressure": null,
+            "ice_weight": 100.0
+          },
+          {
+            "model": "MODEL",
+            "ice_caaa": {
+              "0": 12.0,
+              "30": 14.5,
+              "60": 19.499999999999996,
+              "90": 22.0,
+              "120": 19.5,
+              "150": 14.5,
+              "180": 12.0,
+              "210": 14.5,
+              "240": 19.5,
+              "270": 22.0,
+              "300": 19.499999999999996,
+              "330": 14.500000000000004
+            },
+            "area_source": "CCI",
+            "ice_pressure": null,
+            "ice_weight": 200.0
+          }
+        ],
+        "placement": [
+          {
+            "model": "MODEL",
+            "sector": "alpha",
+            "quantity": 1,
+            "elevation": 100,
+            "azimuth": 0,
+            "pos_top": null,
+            "loc_top": null,
+            "pos_btm": null,
+            "loc_btm": null,
+            "edge_distance": null,
+            "member_front_force": null,
+            "member_side_force": null
+          },
+          {
+            "model": "MODEL",
+            "sector": "alpha",
+            "quantity": 1,
+            "elevation": 120,
+            "azimuth": 45,
+            "pos_top": null,
+            "loc_top": null,
+            "pos_btm": null,
+            "loc_btm": null,
+            "edge_distance": null,
+            "member_front_force": null,
+            "member_side_force": null
+          }
+        ]
+      }
+    }
+  }
+}

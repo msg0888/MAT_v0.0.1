@@ -1,0 +1,130 @@
+{
+  "id": "fa452835304141319df178b22b715aed",
+  "name": "cfd-cci-test",
+  "created_at": "2026-01-08T17:05:20.735355+00:00",
+  "updated_at": "2026-01-08T17:05:20.774849+00:00",
+  "code": {},
+  "geometry": {},
+  "files": {},
+  "cfd_db": [
+    {
+      "manufacturer": "MFG",
+      "model": "MODEL",
+      "deg_0": "1",
+      "deg_10": "2",
+      "deg_20": "3",
+      "deg_30": "4"
+    }
+  ],
+  "cci_db": [
+    {
+      "manufacturer": "MFG",
+      "model": "MODEL",
+      "front": "10",
+      "side": "20",
+      "front_ice_0_5": "11",
+      "front_ice_1_0": "12",
+      "front_ice_2_0": "13",
+      "side_ice_0_5": "21",
+      "side_ice_1_0": "22",
+      "side_ice_2_0": "23"
+    }
+  ],
+  "discrete_loads": {
+    "qty_sectors": 1,
+    "mount_azimuths": {
+      "alpha": 0
+    },
+    "rows": [
+      {
+        "A": "MFG",
+        "B": "MODEL",
+        "C": "Existing",
+        "D": "Antenna",
+        "E": "CFD",
+        "F": 1,
+        "L": 23,
+        "M": 1
+      },
+      {
+        "A": "MFG",
+        "B": "MODEL",
+        "C": "Existing",
+        "D": "Antenna",
+        "E": "CCI",
+        "F": 1,
+        "L": 45,
+        "M": 1
+      }
+    ],
+    "normalized": [
+      {
+        "A": "MFG",
+        "B": "MODEL",
+        "C": "Existing",
+        "D": "Antenna",
+        "E": "CFD",
+        "F": 1,
+        "L": 23,
+        "M": 1,
+        "normalized": {
+          "alpha": {
+            "app_azimuth": 23.0,
+            "mount_azimuth": 0.0,
+            "normalized_azimuth": 23.0,
+            "lookup_azimuth": 23.0
+          }
+        },
+        "cfd": {
+          "alpha": 3.3
+        }
+      },
+      {
+        "A": "MFG",
+        "B": "MODEL",
+        "C": "Existing",
+        "D": "Antenna",
+        "E": "CCI",
+        "F": 1,
+        "L": 45,
+        "M": 1,
+        "normalized": {
+          "alpha": {
+            "app_azimuth": 45.0,
+            "mount_azimuth": 0.0,
+            "normalized_azimuth": 45.0,
+            "lookup_azimuth": 45.0
+          }
+        },
+        "cci": {
+          "alpha": 17.000000000000004
+        }
+      }
+    ],
+    "validation": {
+      "valid": true,
+      "errors": [],
+      "warnings": [
+        "MODEL: missing required input G",
+        "MODEL: missing required input H",
+        "MODEL: missing required input I",
+        "MODEL: missing required input J",
+        "MODEL: missing required input K",
+        "MODEL: missing required input AR",
+        "MODEL: missing required input AS",
+        "MODEL: missing required input AT",
+        "MODEL: missing required input AU",
+        "MODEL: missing required input G",
+        "MODEL: missing required input H",
+        "MODEL: missing required input I",
+        "MODEL: missing required input J",
+        "MODEL: missing required input K",
+        "MODEL: missing required input AR",
+        "MODEL: missing required input AS",
+        "MODEL: missing required input AT",
+        "MODEL: missing required input AU"
+      ]
+    },
+    "ice_thickness": 1.0
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "e07f744cbe734a719ac6231e27f52dd9",
+  "name": "discrete-loads-test",
+  "created_at": "2026-01-08T16:58:59.312780+00:00",
+  "updated_at": "2026-01-08T16:58:59.324285+00:00",
+  "code": {},
+  "geometry": {},
+  "files": {},
+  "discrete_loads": {
+    "qty_sectors": 3,
+    "mount_azimuths": {
+      "alpha": 30,
+      "beta": 120,
+      "gamma": 240
+    },
+    "rows": [
+      {
+        "A": "MFG",
+        "B": "MODEL",
+        "C": "Existing",
+        "D": "Antenna",
+        "E": "Flat",
+        "F": 2,
+        "G": 0,
+        "H": 100,
+        "I": 8,
+        "J": 0,
+        "K": 0,
+        "L": 30,
+        "M": 1,
+        "N": "MP1",
+        "O": 10,
+        "P": "MP2",
+        "Q": 20,
+        "T": 120,
+        "U": 1,
+        "V": "MP3",
+        "W": 15,
+        "X": "MP4",
+        "Y": 25,
+        "AB": 240,
+        "AC": 1,
+        "AD": "MP5",
+        "AE": 12,
+        "AF": "MP6",
+        "AG": 22,
+        "AR": 10,
+        "AS": 5,
+        "AT": 2,
+        "AU": 100
+      }
+    ],
+    "normalized": [
+      {
+        "A": "MFG",
+        "B": "MODEL",
+        "C": "Existing",
+        "D": "Antenna",
+        "E": "Flat",
+        "F": 2,
+        "G": 0,
+        "H": 100,
+        "I": 8,
+        "J": 0,
+        "K": 0,
+        "L": 30,
+        "M": 1,
+        "N": "MP1",
+        "O": 10,
+        "P": "MP2",
+        "Q": 20,
+        "T": 120,
+        "U": 1,
+        "V": "MP3",
+        "W": 15,
+        "X": "MP4",
+        "Y": 25,
+        "AB": 240,
+        "AC": 1,
+        "AD": "MP5",
+        "AE": 12,
+        "AF": "MP6",
+        "AG": 22,
+        "AR": 10,
+        "AS": 5,
+        "AT": 2,
+        "AU": 100,
+        "normalized": {
+          "alpha": {
+            "app_azimuth": 30.0,
+            "mount_azimuth": 30.0,
+            "normalized_azimuth": 0.0,
+            "lookup_azimuth": 0.0
+          },
+          "beta": {
+            "app_azimuth": 120.0,
+            "mount_azimuth": 120.0,
+            "normalized_azimuth": 0.0,
+            "lookup_azimuth": 0.0
+          },
+          "gamma": {
+            "app_azimuth": 240.0,
+            "mount_azimuth": 240.0,
+            "normalized_azimuth": 0.0,
+            "lookup_azimuth": 0.0
+          }
+        }
+      }
+    ],
+    "validation": {
+      "valid": true,
+      "errors": [],
+      "warnings": []
+    }
+  }
+}
